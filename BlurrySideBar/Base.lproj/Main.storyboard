@@ -17,19 +17,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="side-panel" translatesAutoresizingMaskIntoConstraints="NO" id="Vbx-rr-qCS">
-                                <rect key="frame" x="-121" y="-338" width="563" height="1193"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vbx-rr-qCS">
+                                <rect key="frame" x="-121" y="-285" width="563" height="1193"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Vbx-rr-qCS" id="kjx-se-zhK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="470" y="469"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="side-panel" width="563" height="1193"/>
-    </resources>
 </document>
