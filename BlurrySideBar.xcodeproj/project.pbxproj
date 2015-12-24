@@ -12,6 +12,8 @@
 		928D810F1C2B4ECA00AC9182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928D810D1C2B4ECA00AC9182 /* Main.storyboard */; };
 		928D81111C2B4ECA00AC9182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928D81101C2B4ECA00AC9182 /* Assets.xcassets */; };
 		928D81141C2B4ECA00AC9182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928D81121C2B4ECA00AC9182 /* LaunchScreen.storyboard */; };
+		928D811C1C2B4F0D00AC9182 /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D811B1C2B4F0D00AC9182 /* SideBarTableViewController.swift */; };
+		928D811E1C2B571000AC9182 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D811D1C2B571000AC9182 /* SideBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		928D81101C2B4ECA00AC9182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		928D81131C2B4ECA00AC9182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		928D81151C2B4ECA00AC9182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928D811B1C2B4F0D00AC9182 /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
+		928D811D1C2B571000AC9182 /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		928D80FD1C2B4ECA00AC9182 = {
 			isa = PBXGroup;
 			children = (
+				928D811B1C2B4F0D00AC9182 /* SideBarTableViewController.swift */,
+				928D811D1C2B571000AC9182 /* SideBar.swift */,
 				928D81081C2B4ECA00AC9182 /* BlurrySideBar */,
 				928D81071C2B4ECA00AC9182 /* Products */,
 			);
@@ -54,9 +60,9 @@
 		928D81081C2B4ECA00AC9182 /* BlurrySideBar */ = {
 			isa = PBXGroup;
 			children = (
-				928D81091C2B4ECA00AC9182 /* AppDelegate.swift */,
-				928D810B1C2B4ECA00AC9182 /* ViewController.swift */,
 				928D810D1C2B4ECA00AC9182 /* Main.storyboard */,
+				928D810B1C2B4ECA00AC9182 /* ViewController.swift */,
+				928D81091C2B4ECA00AC9182 /* AppDelegate.swift */,
 				928D81101C2B4ECA00AC9182 /* Assets.xcassets */,
 				928D81121C2B4ECA00AC9182 /* LaunchScreen.storyboard */,
 				928D81151C2B4ECA00AC9182 /* Info.plist */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				928D810C1C2B4ECA00AC9182 /* ViewController.swift in Sources */,
+				928D811C1C2B4F0D00AC9182 /* SideBarTableViewController.swift in Sources */,
+				928D811E1C2B571000AC9182 /* SideBar.swift in Sources */,
 				928D810A1C2B4ECA00AC9182 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

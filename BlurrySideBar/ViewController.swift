@@ -8,16 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, SideBarDelegate {
 
+    var sideBar:SideBar = SideBar()
+    var menuItemArray = ["first item","Second Item","3rd Team"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        sideBar = SideBar(sourceView: view, menuItems: menuItemArray )
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func sideBarDidSelectButtonAtIndex(index:Int){
+        
+        
     }
 
 
